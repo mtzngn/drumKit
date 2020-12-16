@@ -1,25 +1,7 @@
 // in this project we will create different sounds accordance to the keys 
 // pressed on key board.
-// window.addEventListener("keydown", logKey)
 
-// function logKey(e) {
-
-//         keyValue.textContent = e.key.toLowerCase();
-//         charCode.textContent = e.which ;
-//         result.textContent = e.which;
-
-
-//     keyCode.textContent = e.code;
-//     for (let i = 0; i < boxes.length; i++) {
-//         boxes[i].style.visibility = ""
-//     }
-//     heading.style.visibility = "hidden";
-//     heading.style.marginTop = "0";
-
-
-// }
-
-
+//creating variables for each ssounds to be played
 var clap = new Audio("./sounds/clap.wav")
 var hihat = new Audio("./sounds/hihat.wav")
 var kick = new Audio("./sounds/kick.wav")
@@ -29,6 +11,7 @@ var ride = new Audio("./sounds/ride.wav")
 var snare = new Audio("./sounds/snare.wav")
 var tom = new Audio("./sounds/tom.wav")
 var tink = new Audio("./sounds/tink.wav")
+//adding the event listener 
 window.addEventListener("keydown", (e)=>{
     if (e.key == "a") {
         clap.play()
