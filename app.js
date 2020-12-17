@@ -33,3 +33,32 @@ window.addEventListener("keydown", (e)=>{
         tink.play()
     }
 })
+var boxes = document.getElementsByClassName("box")
+
+boxes[0].addEventListener("click", ()=>{
+    clap.play()
+})
+boxes[1].addEventListener("click", ()=>{
+    hihat.play()
+})
+boxes[2].addEventListener("click", ()=>{
+    kick.play()
+})
+boxes[3].addEventListener("click", ()=>{
+    openhat.play()
+})
+boxes[4].addEventListener("click", ()=>{
+    boom.play()
+})
+boxes[5].addEventListener("click", ()=>{
+    ride.play()
+})
+boxes[6].addEventListener("click", ()=>{
+    snare.play()
+})
+boxes[7].addEventListener("click", ()=>{
+    tom.play()
+})
+boxes[8].addEventListener("click", ()=>{
+    tink.play()
+})
